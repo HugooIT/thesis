@@ -66,6 +66,20 @@
     li {
       margin-bottom: 1.5em;
     }
+    .contact-icons {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+    .contact-icons img {
+      width: 40px;
+      height: 40px;
+      transition: transform 0.2s ease;
+    }
+    .contact-icons a:hover img {
+      transform: scale(1.2);
+    }
   </style>
 </head>
 <body>
@@ -100,6 +114,17 @@
       </li>
     </ul>
 
+    <hr style="margin: 40px 0;">
+
+    <h2>📬 Contact</h2>
+    <div class="contact-icons">
+      <a href="mailto:hugo.iteney@gmail.com" target="_blank" title="Email">
+        <img src="https://img.icons8.com/ios-filled/50/000000/new-post.png" alt="Email">
+      </a>
+      <a href="https://www.linkedin.com/in/hugo-iteney/" target="_blank" title="LinkedIn">
+        <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="LinkedIn">
+      </a>
+    </div>
   </div>
 </body>
 </html>
